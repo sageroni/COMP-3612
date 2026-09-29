@@ -1,0 +1,37 @@
+body {
+   background-color: #e6e9ed;
+   padding: 10px;
+}
+h1 {
+   font-size: 28px;
+}
+h2 {
+   font-size: 20px;
+}
+a { display: block; margin-top: 5px; color: #3D70B2; }
+
+/* add styles after here */
+/* This will select every <input> element whose type attribute is exactly equal to “text”. 
+Examine the HTML to see which elements this will target.  */
+input[type="text"] {
+   margin-right: 20px;
+   height: 25px;
+   width: 200px;
+   border-style: none;
+   border-bottom: 2px solid #3D70B2;
+   background-color:white;
+}
+
+/* This selects any <a> elements whose href attribute 
+contains “twitter.com”.  */
+a[href*="twitter.com"] {
+   background: url(https://twitter.com/favicon.ico) no-repeat
+   left center;
+   padding-left:19px;
+}
+/* This selects any <a> elements
+ whose href attribute ends with “.pdf”. */
+a[href$=".pdf"] {
+   background: url(images/pdf_icon.svg) no-repeat left center;
+   padding-left:19px;
+}

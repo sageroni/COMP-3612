@@ -1,0 +1,28 @@
+body {
+   background-color: white;
+   margin:5px;
+   padding:0;
+}
+
+/* add styles here */
+/* This example illustrates a 
+limitation/feature of the height property: that the 
+entire content of an element will be displayed 
+regardless of the element’s height. The extra content 
+is said to overflow out of the specified height. 
+You can control how this overflow works in CSS. */
+
+div {
+   background-color: silver;
+   width: 200px;
+   height: 100px;
+   overflow: hidden;
+   /* this hides any of the overflow that may have happened.  */
+   overflow: scroll;
+   /* this makes it so if there is overflow, we can scroll 
+   left right up or down to view it. */
+   overflow: auto;
+   /* this makes the overflow automatically fit into the 
+   dimensions, and only gives the option to scroll up 
+   or down to view any overflow text. */
+}

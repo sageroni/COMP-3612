@@ -1,0 +1,29 @@
+body {
+   background-color: snow;
+}
+h1 {
+   font-size: 24px;
+   margin: 10px;
+}
+div {
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   background-color: silver;
+   display: inline-block;
+}
+
+#first {
+   background-color: seagreen;
+}
+.circle {
+   background-color: lightskyblue;
+   border-radius: 50%;
+}
+
+.orange {
+   background-color: orange;
+}
+
+/* add your new styles after here */
+

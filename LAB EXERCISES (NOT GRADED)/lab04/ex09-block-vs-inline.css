@@ -1,0 +1,62 @@
+body {
+   font-family: Georgia, Cambria, "Times New Roman", serif;  
+   font-weight: normal;
+   font-size: 12pt;
+   margin: 0;
+   padding: 10px;
+}
+
+/* you will be modifying the following styles */
+
+h1, h2, p, div, ul, li {
+   border: 2px dashed lightseagreen;
+   margin-top: 10px;
+   padding: 5px;
+   width: 75%;
+   /* You will learn more about width, padding, and margins 
+   later in this lab, but this changes 
+   the width of the specified elements to be 75% of 
+   its parent’s container, adds 10px margin 
+   space to the top of each block element, and adds 
+   5px of inner space (inside the border) to 
+   each element. */
+}
+span, a, em {
+   border: 2px solid sienna;
+   display: block;
+   /* Each of these elements now resides on its own line.  */
+   display: inline-block;
+   /* The inline-block value makes the element inline 
+   (rather than on a line by itself) but uses the 
+   margin, padding, and width and height property values. */
+   margin-top: 10px;
+   padding: 5px;
+   width: 75%;
+
+   /* This has no effect on these inline elements when display
+   is not set, or is set to block. 
+   Margin top and bottom, padding, and width 
+   and height are ignored for inline elements */
+}
+img {
+   border: 2px solid sienna;
+   display: block;
+   /* By changing the display property to block,
+   the image now resides on a line to itself.  */
+   display: inline;
+   /* restores image to default inline display.  */
+}
+/* The elements with the brown rectangle are inline
+ elements, while those with the sea green 
+dashed rectangle are block elements.  */
+
+li {
+   display: inline-block;
+   list-style-type: none;
+   width: 20%;
+   height: 50px;
+   margin: 0;
+   /* This demonstrates one of the most common uses 
+   of the inline-block display mode: to 
+   implement a horizontal list of elements. */
+}

@@ -1,0 +1,27 @@
+body {
+   background-color: white;
+   padding:10px;
+}
+p {
+   font-family: 'Merriweather', serif;
+   margin: 10px;
+   width: 400px;
+   background-color: gainsboro;
+}
+
+#p1 {
+   line-height: 2;
+}
+#p2 {
+   text-transform: uppercase;
+}
+#p3 {
+   letter-spacing: 3px;
+   
+}
+#p4 {
+   text-align: center;
+}
+#p5 {
+   text-align: right;
+}

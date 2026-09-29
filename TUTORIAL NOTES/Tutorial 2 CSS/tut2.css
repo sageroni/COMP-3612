@@ -1,0 +1,28 @@
+/*css selector for all elements with id of second
+*/
+
+#second p
+
+/*css selector for all elements with box class
+*/
+#first .box
+
+/*css selector for all span elements with class 'box'*/
+span.box
+
+div #first .box
+
+.box [title]
+
+div.box p:first-child
+/*first child is a pseudo selector. 
+
+more examples are a:link -> this is used to style a hyperlink.
+                    :hover -> this is used to style an item when mouse hovers. */
+
+.box > div
+
+/*not on exam! fairly unsual one.*/
+
+h2,span
+/*css selector for all span elements and all h2 elements*/

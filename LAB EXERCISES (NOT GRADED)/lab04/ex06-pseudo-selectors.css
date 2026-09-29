@@ -1,0 +1,53 @@
+body {
+   background-color: #E4E7EB;
+   padding: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 16px;
+}
+ul { list-style-type: none; background-color: #A30664; color: #FFE3EC; padding: 0px;}
+li { padding: 10px; display: inline-block;}
+
+/* add styles after here */
+
+li:hover {
+   background-color: #E8368F;
+   cursor: pointer;
+}
+/* Modify the selector as follows and test: 
+li:nth-child(2n) { 
+This selects every second <li> element. 
+4 Modify the selector as follows and test: 
+li:nth-child(2n-1) { 
+This selects every second <li> element 
+starting with the first element. */
+
+a { text-decoration: none; }
+/* removes text underline from hyperlinks*/
+
+a:link { color: #07818F; }
+/* changes the color of the link*/
+
+a:visited {
+   color: #0FB5BA;
+}
+
+/* changes the colour of a link once it has been visited.  */
+
+a:hover {
+   text-decoration: underline;
+   font-weight: bold;
+   background-color: #FFE3EC;
+   color: #870557;
+}
+
+/* this changes the colour of a link when it is hovered over,
+and it changes the colour of the background surrounding
+it as well. it makes the font bold and underlines the text. */
+
+a:active {
+   background-color: #DA127D;
+   color: #FFE3EC;
+}
+/* this changes the colour and background of a link when it 
+is actively being clicked on an held.  */
+

@@ -1,0 +1,25 @@
+body {
+   background-color: white;
+   margin:5px;
+   padding:0;
+}
+p {
+   margin: 5px;
+}
+
+#first {
+   font-family: Arial, "Helvetica Neue", 
+   Helvetica, sans-serif;
+}
+#second {
+   font-family: 'Lobster', cursive;
+}
+
+#third {
+   font-family: 'Merriweather', serif;
+   font-weight: 300;
+}
+#fourth {
+   font-family: 'Merriweather', serif;
+   font-weight: 900;
+}

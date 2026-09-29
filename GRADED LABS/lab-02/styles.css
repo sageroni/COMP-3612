@@ -1,0 +1,77 @@
+/* Add your CSS style definitions to this file */
+
+body {
+    margin: 0em 4em 0em 4em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    background-color: #F9F9F9;
+}
+
+h1 {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #9F2042;
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    margin: -2em -2em - -2em;
+}
+article {
+    display: min-content;
+    background-color: #FFFFFF;
+    padding: 2em;
+}
+p {
+    text-align: left;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+blockquote {
+    font-family: "Roboto Slab", sans-serif;
+    border: 1px solid #ECECEC;
+    font-size: 1.25rem;
+    margin: 4px;
+    padding: 1rem 1.5rem;
+    background-color: #F9F9F9;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+a {
+    color: #EC8295;
+   text-align: center;
+}
+
+#buttons a {
+   padding: 10px 10px;
+   border: 2px solid #ECECEC;
+   width: 60%;
+   border-radius: 5px;
+   
+}
+#buttons:hover {
+   color: #9F2042;
+}
+footer {
+    background-color: #29293A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.5em 2em;
+    text-align: left;
+    margin: 2em -2em -2em -2em;
+}
+
+footer a {
+    color: #EC8295;
+    text-decoration: none;
+}
+#details {
+    color: #A9A9BA;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}

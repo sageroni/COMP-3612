@@ -1,0 +1,83 @@
+:root {
+    --color-primary: #ff6e40;
+    --color-back-light: #ECEFF1;
+    --color-back-dark: #37474f;
+    --spacer-base: 1em;
+    --card-font-size: 90%;
+    --header-font-size: 32px;
+    --header-height: 8em;
+    --image-size: 100%;
+}
+body {
+    font-family:   Roboto, Arial, sans-serif;
+    font-size: 1em;
+    background-color: var(--color-back-light);
+}
+header {
+   padding: 0 var(--spacer-base);
+   background-color: var(--color-back-dark);
+   height: var(--header-height);
+   display: flex;
+
+}
+
+header h1 {
+    margin: 0;   
+    font-size: var(--header-font-size);
+    color: white;
+    justify-content: right;
+    display: flex;
+    padding: 1.4em 0em 1.4em 0.5em;
+    margin: 0;
+}
+header h1 span {
+    color: var(--color-primary);
+    justify-content: left;
+    display: inline-flex;
+    padding-right: 5%;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.card {
+    display: inline-flex;
+    flex-wrap: wrap;
+	background: white;
+	margin-bottom: 2em;	
+    padding: 0;
+    width: 24%;
+   
+}
+.card-content p {
+	padding: 0.5em 1.4em 0 1.4em;
+	font-size: var(--card-font-size);   
+}
+.card-actions {
+	padding: 0.5em 1.4em;
+	font-size: var(--card-font-size);      
+}
+/* 
+add your styles here */
+.thumbnail img {
+    width: var(--image-size);
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 img {
+    justify-content: right;
+}
+
+/* styles for mobile protrait screen */
+
+
+/* styles for tablet portrait and mobile landscape screens */

@@ -1,0 +1,70 @@
+
+h1, h2 {
+   font-family: "Trebuchet MS", "Lucida Grande", sans-serif;
+   letter-spacing: 5px; 
+   text-transform: uppercase;
+   margin: 0 5px;
+}
+
+/* add styles after here */
+
+body {
+   font-family: Georgia, Cambria, "Times New Roman", serif;
+   font-weight: normal;
+   font-size: 12pt;
+   border: 2pt solid green;
+   margin: 0;
+   padding: 10px;
+   color: grey;
+   /* the colour will be brown and not grey because
+   it considers the last element as the most recently
+   updated one, and chooses to use that one.  */
+   color: brown;
+}
+/* font weight, family, and size are inherited by child elements. 
+color is also inherited by child elements. 
+however, border, margin, and padding are not inherited by 
+child elements.  */
+
+div {
+   font-weight: bold;
+   color: magenta;
+}
+p {
+   color: green;
+   /* Notice that these new styles will override
+ the style of the parent (i.e., the <body> element).  */
+   border: inherit;
+   /* Notice that one of the <p> elements inherit’s 
+   its parent’s border property. Notice that the 
+   <p> elements within the <div> elements do not. */
+}
+
+.last {
+   font-size: 14pt;
+   color: blue;
+   /* Notice that class selectors 
+   take precedence over element selectors. That is, 
+   the class selector (.last) specification overrides 
+   the element selector (p) specification. */
+}
+
+#verylast {
+   color: orange;
+   font-size: 18pt;
+   /* id selectors take precedence over class selectors. */
+}
+
+div p {
+   color: red;
+   font-size: 8pt;
+   /* style specification did not override the class or 
+   the id specification.  */
+}
+/* Switch to the markup file and edit the following line 
+and test. 
+<p class="last" id="verylast" style="color: yellow">
+This one has the last class and the verylast id attribute</p> 
+This example illustrates how an inline style attribute has the 
+highest specificity, and can be used to override any style
+specification within a stylesheet.  */

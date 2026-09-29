@@ -1,0 +1,28 @@
+body {
+   background-color: white;
+   margin:0;
+   padding:0;
+}
+img { display:block; margin:0; padding:0;
+}
+
+div {
+   margin: 20px 50px;
+   border: solid 5px black;
+   background-color:lightcyan;
+   width: 400px;
+   height: 100px;
+   padding: 5px;
+}
+#first {
+   box-sizing: content-box;
+}
+#second {
+   box-sizing: border-box;
+}
+/* By default, block elements have the
+content-box value for box-sizing. This means the 
+true width of an element = borders + padding + width. 
+By setting the box-sizing to border-box, 
+the true width of the element = width.
+This is often very helpful.  */

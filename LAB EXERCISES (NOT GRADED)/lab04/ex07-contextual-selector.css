@@ -1,0 +1,44 @@
+header, footer {
+   color: white;
+   background-color: #213643;
+}
+nav {
+   background-color: #728B96;
+}
+ /* p {
+   color: #983C2A;
+ }
+changes the colour of every occurrence of the p element.  */
+
+/* #main p {
+   color: #983C2A;
+} */
+/* This selects all <p> elements that 
+exist somewhere within an element whose id=main. In 
+this case, it selects all of them except for
+the one within the <footer> element.  */
+
+hr+p {
+   color: green;
+}
+/* This uses the adjacent sibling selector which
+ selects the first <p> that follows any <hr> element.  */
+ /* time {
+   color: red;
+ } */
+ /* changes all occurrences of time to colour red. */
+
+/* div time {
+   color: red;
+} */
+/* This doesn’t select the <time> element inside the footer. */
+#main>time {
+   color: red;
+}
+/* only selects direct children of time in main.  */
+h3~p {
+   color: orange;
+}
+/* This uses the general sibling selector which selects 
+all the <p> elements that share the same 
+parent as an <h3> element. */

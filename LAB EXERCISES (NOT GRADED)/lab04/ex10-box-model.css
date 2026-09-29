@@ -1,0 +1,33 @@
+/* add reset style here */
+
+header, footer, nav, main, article, section, figure, 
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    /* This is a CSS reset(a way to remove any browser 
+    defaults). This way, any styling that is present is
+    due to explicit styling rather than to browser defaults,
+    which can vary from browser to browser. It removes 
+    default margins for <p>, <div>, <figure>, and heading 
+    elements. */
+}
+
+
+/* add rest of styles here */
+
+figure {
+    margin: 2em;
+    background-color: #EEEEEE;
+    padding: 1.5em;
+    border: solid 1px #999999;
+}
+
+img {
+    width: 75%;
+    /* i added this in as the image would have been too large otherwise,
+ and would not have fit into the constraints of the model. */
+}
+ 

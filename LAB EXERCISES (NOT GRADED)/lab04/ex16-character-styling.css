@@ -1,0 +1,32 @@
+body {
+   background-color: white;
+   margin:5px;
+   padding:0;
+}
+p {
+   font-family: 'Merriweather', serif;
+   margin: 5px;
+}
+div {
+   border-bottom: 1px solid gray;
+}
+
+#parent1 {
+   font-size: 100%;
+}
+#parent2 {
+   font-size: 75%;
+}
+.first {
+   font-size: 1em;
+}
+.second {
+   font-size: 1.5em;
+}
+/* As you can see, em units are relative to 
+the parent font-size setting.  */
+.third {
+   font-size: 1rem;
+/* When using a rem unit, the font-size 
+stays the same regardless of the parent’s % size. */
+}
