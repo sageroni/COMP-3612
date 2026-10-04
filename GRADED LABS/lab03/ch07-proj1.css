@@ -18,7 +18,7 @@ header {
    background-color: var(--color-back-dark);
    height: var(--header-height);
    display: flex;
-
+   justify-content: space-between;
 }
 
 header h1 {
@@ -37,6 +37,30 @@ header h1 span {
     padding-right: 5%;
 }
 
+header img {
+    align-items: right;
+    justify-content: right;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    padding: 2.7rem 0.2rem 2.5rem 0;
+
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
 button {
     padding: 0.5em 1em;
     background-color: var(--color-primary);
@@ -44,15 +68,17 @@ button {
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
+    align-items: left;
 }
+
 .card {
     display: inline-flex;
     flex-wrap: wrap;
 	background: white;
-	margin-bottom: 2em;	
-    padding: 0;
+	margin-bottom: 4em;
     width: 24%;
-   
+    height: auto;
+    margin-right: 0.60%;
 }
 .card-content p {
 	padding: 0.5em 1.4em 0 1.4em;
@@ -64,8 +90,15 @@ button {
 }
 /* 
 add your styles here */
+
+.thumbnail {
+    width: 100%;
+    margin: 0;
+}
 .thumbnail img {
-    width: var(--image-size);
+    width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 figure {
