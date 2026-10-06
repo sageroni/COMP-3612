@@ -19,3 +19,8 @@ li {
 }
 
 /* Add styles here */
+
+ul:hover .action {
+   visibility: hidden;
+}
+/* the space for the hidden item is maintained. */

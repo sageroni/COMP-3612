@@ -1,0 +1,40 @@
+body {
+   background: white;
+   margin: 0;
+   padding: 0;
+}
+.media-body h2 { margin: 0;}
+.media {
+   background-color: #ECEFF1;
+   padding: 10px;
+   margin: 50px;
+   width: 500px;
+}
+
+.container {
+   background-color: #B6E0FE;
+   padding: 5px;
+   margin: 10px 50px;
+}
+.container div, .container span {
+   background-color: #62B0E8;
+   padding: 5px;
+}
+
+/* Add styles here */
+
+.container {
+   display: flex; /* this makes block and inline elements become flex items. 
+   each flex item is placed along the main axis.  */
+   /* justify-content: space-between; /* this makes the elements have space between them */
+   /* justify-content: space-around; this adds space around the elements.  */
+   /* justify-content: flex-end; this moves all elements to the right side of the container.  */
+
+}
+
+.media {
+   display: flex;
+   align-items: flex-start;
+}
+/* .media-image {
+   /* margin-right: 1em; this adds 1em of space to the right of the image.  */

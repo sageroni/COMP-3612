@@ -37,15 +37,31 @@ background-color: #F0F8FF;
 box-shadow: 3px 3px 3px 3px #BCCCDC;
   padding: 0.25em;
 }
+
+
+
+/* add additional styles here */
+
+/* changes <li> elements so they show up on a single line.  */
+li {
+  list-style: none;
+  display: inline;
+}
+
+/* display: inline-block makes margins, width, and height display. 
+display: block makes span sit on its own line.  */
 h1 span {
  background-color: #E668A7;
  color: #87EAF2;
  font-size: 1.25em;
-
+ margin: 50px;
+ width: 200px;
+ height: 100px;
  display: inline;
 }
 
-/* add additional styles here */
-
-
-
+/* a block element exists on its own line by default.  */
+.card img {
+  display: block;
+  margin: 0.5em;
+}

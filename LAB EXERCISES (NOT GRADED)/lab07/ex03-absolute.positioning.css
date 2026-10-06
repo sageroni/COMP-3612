@@ -1,0 +1,25 @@
+figure {  
+   background-color: #EDEDDD;
+   border: 1pt solid #A8A8A8;
+   padding: 5px;
+   width: 150px;
+   top: 150px;
+   left: 200px;
+   position: absolute;
+}
+
+/* when we use absolute positioning, 
+space is not moved for the moved element
+as it is not part of the normal flow of the document. */
+figcaption {
+   background-color: #EDEDDD;
+   padding: 5px;
+   top: 150px;
+   left: 200px;
+   position: absolute;
+}
+/* an element moved with absolute positioning is positioned 
+relative to the nearest positioned ancestor (i.e., the 
+nearest ancestor that has a position other than static). 
+If there is no such ancestor, it will be positioned relative
+ to the initial containing block (usually the viewport). */

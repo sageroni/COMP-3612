@@ -1,0 +1,35 @@
+section {
+   margin: 0.5em;
+   padding: 0.5em;
+   background-color: var(--color-primary-1-800);
+   width: 600px;
+}
+section div {
+   margin: 5px;
+   padding: 5px;;   
+   background-color: var(--color-primary-1-400);
+   font-weight: 400;
+   font-size: 2em;
+}
+
+/* first container uses flex */
+.container1 {
+   display: flex;
+   flex-wrap: wrap;
+}
+.container1 div {
+   flex: 1 1 150px;
+}
+/* second container uses grid */
+.container2 {
+   display: grid;
+   /* gap: 10px; this makes a gap of ten pixels between the elements.  */
+   /* grid-template-columns: repeat(3, 1fr); */
+   /* this uses grid to layout the items within the container. 
+   each row of the grid will contain three columns of equal size.  */
+   grid-template-columns: 2fr 1fr 1fr;
+   /* this puts this amount of space between the grid template columns.  */
+   grid-template-rows: 80px 200px;
+   /* we do not need to set a row height, as the height will normally size
+   itself to fit the content.  */
+}

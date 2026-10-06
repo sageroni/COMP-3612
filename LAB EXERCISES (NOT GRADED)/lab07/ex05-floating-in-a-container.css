@@ -11,14 +11,13 @@ body {
    width: 500px;
 }
 
-.container {
-   background-color: #B6E0FE;
-   padding: 5px;
-   margin: 10px 50px;
-}
-.container div, .container span {
-   background-color: #62B0E8;
-   padding: 5px;
+/* Add styles here */
+
+.media-image {
+   float: left;
+   margin-right: 10px;
 }
 
-/* Add styles here */
+.media-body {
+   margin-left: 160px;
+}
