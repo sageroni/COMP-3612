@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DIV's DIV's Everywhere</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/lab08.css" />   
+
+
+</head>
+<body id="firstExample">
+
+   <script> 
+      document.write("this text was written from JS");
+      // this content is now visible in the browser window.
+      // This will display the generated text; the 
+      // document.write adds the content to the document 
+      // window. This seems pretty useful, but as we will 
+      // see later, we don’t generally use 
+      // document.write in production code since it doesn’t 
+      // get added to the DOM tree (and thus is 
+      // able to be further manipulated by JavaScript).
+
+      // doccumment.write("this should give an intentional error.")
+      // If you are using Chrome, select the Inspect option. Once the developer 
+      // tools are visible (either on the left or bottom of page or in a
+      // floating window), click the Console tab. console lets us know where the 
+      // error with our code is, since javascript does not immediately
+      // throw errors when there is a syntactical mistake.
+
+      let count = 1;
+      document.write(" Count = " + count);
+
+      count++;
+      let output = "<br>Count = " + count;
+      document.write(output);
+      // this shows how to declare initialize and use a variable.
+      // it also illustrates the concatenate operator(+).
+    </script>
+ 
+
+<header class=centered>
+  <h1>Many DIVs to illustrate</h1>
+</header>
+<article id='container' class='centered'>
+    <div id='div1'>div 1</div>
+    <div id='div2'>div 2</div>
+    <div id='div3'>div 3</div>
+    <div id='div4'>div 4</div>
+    <div id='div5'>div 5</div>
+    <div id='div6'>div 6</div>
+</article> 
+
+<footer class=centered>
+  <p>Copyright &copy; 2025</p>
+</footer>    
+
+
+</body>
+</html>

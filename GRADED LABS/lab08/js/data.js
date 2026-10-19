@@ -13,9 +13,9 @@ const cities = [  {country:"Canada",city:"Calgary",continent:"NA"},
                   {country:"United States",city:"Washington, D. C.",continent:"NA"}
                ];
 
-const galleries = [
-   { id: 51, name: "Albright-Knox Art Gallery", location: { city: "Buffalo", country: "USA" }, url: "http://www.albrightknox.org/"  },
-   { id: 18, name: "Kunsthistorisches Museum", location: { city: "Vienna", country: "Austria" }, url: "http://www.khm.at/"  },
+   const galleries = [
+      { id: 51, name: "Albright-Knox Art Gallery", location: { city: "Buffalo", country: "USA" }, url: "http://www.albrightknox.org/"  },
+      { id: 18, name: "Kunsthistorisches Museum", location: { city: "Vienna", country: "Austria" }, url: "http://www.khm.at/"  },
    { id: 22, name: "Belvedere Gallery", location: { city: "Vienna", country: "Austria" }, url: "http://www.belvedere.at/"  },  
    { id: 42, name: "Brooklyn Museum", location: { city: "New York", country: "USA" }, url: "http://www.brooklynmuseum.org/"  },
    { id: 52, name: "Detroit Institute of Arts", location: { city: "Detroit", country: "USA" }, url: "http://www.dia.org/"  },   

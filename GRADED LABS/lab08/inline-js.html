@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Lab 8</title>
+   <link rel="stylesheet" type="text/css" href="css/lab08.css" />
+   <script>
+      let count = 0;
+   </script>
+</head>
+<body>
+   
+<header>
+  <h1>Inline Javascript</h1>
+</header>
+
+<!-- <button onclick ="alert('button was clicked');">
+   Click Me
+   <Inline coding like this was very common in the early years of JavaScript. 
+   Your grandma will certainly recognize this style of JavaScript! For the 
+   past 15 years or so, developers instead use external JavaScript 
+   (or occasionally embedded JavaScript) as it is more maintainable. This 
+   example also illustrates the old approach to event handling. In the 9th exercise, 
+   you will learn more contemporary approaches to event handling using the DOM.  -->
+   <!-- </button> -->
+
+<button onclick ="alert('count='+count);">
+   View Count
+   <!-- Inline coding like this was very common in the early years of JavaScript. 
+   Your grandma will certainly recognize this style of JavaScript! For the 
+   past 15 years or so, developers instead use external JavaScript 
+   (or occasionally embedded JavaScript) as it is more maintainable. This 
+   example also illustrates the old approach to event handling. In the next lab, 
+   you will learn more contemporary approaches to event handling using the DOM.  -->
+</button>
+<button onclick="count++;">
+   Increment Count
+</button>
+<!-- For simple examples, the inline approach is quite nice. The trouble is, in a 
+real-world web page, with hundreds of lines of markup in multiple pages, it is 
+difficult to maintain if JavaScript is scattered all through the markup. For 
+this reason, it is ultimately much better for all the JavaScript to reside in 
+a predictable location (i.e., within one or more external JavaScript files). -->
+
+</body>
+</html>
+ 

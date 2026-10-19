@@ -1,3 +1,8 @@
+// By enclosing the JSON data in back-ticks, you are explicitly turning this data into a 
+// template string. In other words, the last two steps have transformed this file from JSON 
+// content, to JavaScript content.
+
+const content = `
 [
    {
       "id":"3a5c5da5-5a12-4d2b-b0dd-abc28eaf810b",
@@ -110,5 +115,4 @@
         } 
       ]      
    }
-
-]
+]`;
