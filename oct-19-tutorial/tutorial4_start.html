@@ -5,39 +5,113 @@
         /* you code goes here */
  
         /* question 1 */
+        console.warn('Exercise 1');
+        let input = prompt("Enter a number");
+        let num = Number(input);
 
+        if (Number.isNaN(num)) {
+            alert("This is not a number!");
+        }
 
 
         /* question 2 */
-
-
+        console.warn('Exercise 2 and 3');
+        let number = prompt("Enter your grade!");
+        let iNumber = Number(number);
+        let grade;
+        let name = prompt("Enter your name: ")
+        if (Number.isNaN(iNumber) || iNumber < 0 || iNumber > 100) {
+            alert("Must be a number between 0 and 100!")
+        }
+        if (iNumber >= 85) {
+            grade = 'A';
+        }
+        else if (iNumber >= 70) {
+            grade = 'B';
+        }
+        else if (iNumber >= 60) {
+            grade = 'C';
+        }
+        else if (iNumber >= 50) {
+            grade = 'D';
+        }
+        else if (iNumber < 50) {
+            grade = 'F';
+        }
+        alert(`The grade of ${name} is ${grade}`)
 
         /* question 3 */
 
 
 
         /* question 4 */
+        console.warn('Exercise 4');
+        let searchIn = prompt("Enter a string: ");
+        let searchFor = prompt("Enter a search string: ");
+        if (searchIn.includes(searchFor)) {
+            alert(`${searchFor} is within ${searchIn}.`)
+        }
+        else{
+            alert(`${searchFor} is NOT within ${searchIn}.`)
+        }
 
 
 
         /* question 5 */
+        console.warn('Exercise 5');
+        let charString = prompt("Enter a string of characters: ");
+        let vowelCount = 0;
+        const vowel = 'aeiouAEIOU';
 
-
+        for (let i = 0; i < charString.length; i++) {
+            let char = charString.substring(i, i + 1);
+            if (vowel.includes(char))
+            vowelCount++;
+        }
+        alert(`There are this many vowels in your string: ${vowelCount}`);
 
         /* question 6 */
-
+        console.warn('Exercise 6');
+        const fourNames = ['John', 'Jamie', 'Marissa', 'Louisa'];
+        for (i = 0; i < fourNames.length; i++) {
+            console.log(fourNames[i]);
+        }
 
 
         /* question 7 */
-
-
+        console.warn('Exercise 7');
+        const nums = [32,45,67,82];
+        let sum = 0;
+        for (let number of nums) {
+            sum +=number;
+        }
+        console.log(sum);
 
         /* question 8 */
-
-
+        console.warn('Exercise 8');
+        let highest = 0;
+        for (let n of nums) {
+            if (n > highest) {
+                highest = n;
+            }
+            console.log(highest);
+        }
 
         /* question 9 */
-
+        console.warn('Exercise 9');
+        let exists = false;
+        const newName = prompt("Please enter a name: ");
+        for (let aName of fourNames) {
+            if (aName == newName) {
+                exists = true;
+            }
+            if (!exists) {
+                names.push(newName);
+            }
+            for (let aName of fourNames) {
+                console.log(aName);
+            }
+        }
 
         
         </script>
