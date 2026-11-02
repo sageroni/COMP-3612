@@ -1,4 +1,4 @@
-[
+const companies = `[
    {
       "symbol":"AAPL",
       "companyName":"Apple Inc.",
@@ -615,4 +615,4 @@
          "sharesOutstanding":290850938
       }
    }
-]
+]`;
